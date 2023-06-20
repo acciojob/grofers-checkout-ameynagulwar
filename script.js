@@ -12,7 +12,7 @@ for(let i = 0; i < prices.length; i++){
 let tr = document.createElement('tr');
 let td = document.createElement('td');
 td.innerText = sum;
-td.setAttribute('id','total-price');
+td.setAttribute('id','ans');
 tr.append(td);
 table.append(tr)
   
